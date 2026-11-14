@@ -8,6 +8,7 @@ human-in-the-loop approval, checkpoints, events, and tool calling.
 - Registry: OPM / GitHub release
 - Install: `OPM package or release archive`
 - Documentation: https://axisvela.github.io/praxo-core/languages/delphi/
+- Examples: https://github.com/axisvela/praxo-core-delphi/tree/main/language/delphi/examples
 - Mirror repository: https://github.com/axisvela/praxo-core-delphi
 - Canonical source: https://github.com/axisvela/praxo-core/tree/main/language/delphi
 - Release index: https://axisvela.github.io/praxo-core/languages/registry-status/

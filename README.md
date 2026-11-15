@@ -1,6 +1,6 @@
 # PRAXO-CORE for Delphi / Free Pascal
 
-Native Core implementation with source tag `delphi/v0.5.0`. It passes all eleven vector groups and includes the native agent loop plus memory, event, checkpoint, policy, context, and middleware helpers. It does not call Go or another language Core; it includes native OpenAI-compatible, Anthropic, and Gemini model adapters but no process bridge or plugin host.
+Native Core implementation with source tag `delphi/v0.6.0`. It passes all eleven vector groups and includes the native agent loop plus memory, event, checkpoint, policy, context, and middleware helpers. It does not call Go or another language Core; it includes native OpenAI-compatible, Anthropic, and Gemini model adapters but no process bridge or plugin host.
 
 ## At a glance
 
@@ -9,9 +9,9 @@ Native Core implementation with source tag `delphi/v0.5.0`. It passes all eleven
 | Package | `PRAXO-CORE` |
 | Registry | [OPM / GitHub release](https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.2.1) |
 | Install | `OPM package or release archive` |
-| Source version | `0.5.0` |
+| Source version | `0.6.0` |
 | Published version | `0.2.1` |
-| Source tag | `delphi/v0.5.0` |
+| Source tag | `delphi/v0.6.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/delphi/ |
@@ -58,8 +58,10 @@ Runnable examples live under [`language/delphi/examples`](language/delphi/exampl
 | Example | What it shows |
 | --- | --- |
 | [checkpoint](language/delphi/examples/checkpoint) | This example uses the Delphi Core checkpoint allowlist for a registered payload round trip. |
+| [consumer](language/delphi/examples/consumer) | This example uses the source Delphi/Free Pascal Core with a deterministic host, one registered `record` tool, an explicit tool scope, and a policy that permits only the `public`... |
 | [event-sink](language/delphi/examples/event-sink) | This example uses Delphi Core sink composition to fan out events and filter the tool-only stream. |
 | [identity-policy](language/delphi/examples/identity-policy) | This example binds a trusted principal to policy decisions and rejects missing, role-mismatched, and tenant-mismatched actions. |
+| [live-model](language/delphi/examples/live-model) | This example connects the Delphi/Free Pascal Core to an OpenAI-compatible endpoint through `TPraxoOpenAIAdapter` and registers one low-risk `get_time` tool with a small JSON Sch... |
 | [mcp](language/delphi/examples/mcp) | This example uses a caller-owned in-process transport with the Delphi MCP client. |
 | [provider-fallback](language/delphi/examples/provider-fallback) | This example calls a fallback only after the primary fails and preserves the primary failure when both fail. |
 | [retry](language/delphi/examples/retry) | This example retries a transient failure with a bounded attempt count and keeps the exhausted failure state. |

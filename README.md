@@ -60,12 +60,14 @@ Runnable examples live under [`language/delphi/examples`](language/delphi/exampl
 | [checkpoint](language/delphi/examples/checkpoint) | This example uses the Delphi Core checkpoint allowlist for a registered payload round trip. |
 | [consumer](language/delphi/examples/consumer) | This example uses the source Delphi/Free Pascal Core with a deterministic host, one registered `record` tool, an explicit tool scope, and a policy that permits only the `public`... |
 | [event-sink](language/delphi/examples/event-sink) | This example uses Delphi Core sink composition to fan out events and filter the tool-only stream. |
+| [hitl](language/delphi/examples/hitl) | This example configures `TPraxoAgentOptions.InterruptOn` and `OnInterruptDecision` for approve, edit-with-reauthorization, and respond decisions. It is a deterministic self-chec... |
 | [identity-policy](language/delphi/examples/identity-policy) | This example binds a trusted principal to policy decisions and rejects missing, role-mismatched, and tenant-mismatched actions. |
 | [live-model](language/delphi/examples/live-model) | This example connects the Delphi/Free Pascal Core to an OpenAI-compatible endpoint through `TPraxoOpenAIAdapter` and registers one low-risk `get_time` tool with a small JSON Sch... |
 | [mcp](language/delphi/examples/mcp) | This example uses a caller-owned in-process transport with the Delphi MCP client. |
 | [provider-fallback](language/delphi/examples/provider-fallback) | This example calls a fallback only after the primary fails and preserves the primary failure when both fail. |
 | [retry](language/delphi/examples/retry) | This example retries a transient failure with a bounded attempt count and keeps the exhausted failure state. |
 | [service](language/delphi/examples/service) | This example defines a transport-neutral request handler with health, principal, and run cases. |
+| [session-checkpoint](language/delphi/examples/session-checkpoint) | This example saves and restores a conversation history across two agent turns. It uses the checkpoint allowlist as a teaching in-memory store keyed by session id; production sto... |
 | [streaming](language/delphi/examples/streaming) | This example accumulates streamed chunks and checks that they reconstruct the final output. |
 | [structured-output](language/delphi/examples/structured-output) | This example validates a final JSON answer against a schema and rejects invalid output. |
 

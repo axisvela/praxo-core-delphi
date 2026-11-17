@@ -7,7 +7,7 @@ Native Core implementation with source tag `delphi/v0.7.0`. It passes all eleven
 | Field | Value |
 | --- | --- |
 | Package | `PRAXO-CORE` |
-| Registry | [OPM / GitHub release](https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.2.1) |
+| Registry | [OPM / GitHub release](https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.7.0) |
 | Install | `OPM package or release archive` |
 | Source version | `0.7.0` |
 | Published version | `0.2.1` |

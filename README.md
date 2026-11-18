@@ -57,6 +57,7 @@ Runnable examples live under [`language/delphi/examples`](language/delphi/exampl
 
 | Example | What it shows |
 | --- | --- |
+| [advanced-delegation](language/delphi/examples/advanced-delegation) | Application-level parent/child delegation plus six governance negative checks. |
 | [checkpoint](language/delphi/examples/checkpoint) | This example uses the Delphi Core checkpoint allowlist for a registered payload round trip. |
 | [consumer](language/delphi/examples/consumer) | This example uses the source Delphi/Free Pascal Core with a deterministic host, one registered `record` tool, an explicit tool scope, and a policy that permits only the `public`... |
 | [event-sink](language/delphi/examples/event-sink) | This example uses Delphi Core sink composition to fan out events and filter the tool-only stream. |

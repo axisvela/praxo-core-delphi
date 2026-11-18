@@ -65,6 +65,7 @@ Runnable examples live under [`language/delphi/examples`](language/delphi/exampl
 | [live-model](language/delphi/examples/live-model) | This example connects the Delphi/Free Pascal Core to an OpenAI-compatible endpoint through `TPraxoOpenAIAdapter` and registers one low-risk `get_time` tool with a small JSON Sch... |
 | [mcp](language/delphi/examples/mcp) | This example uses a caller-owned in-process transport with the Delphi MCP client. |
 | [provider-fallback](language/delphi/examples/provider-fallback) | This example calls a fallback only after the primary fails and preserves the primary failure when both fail. |
+| [representative-chain](language/delphi/examples/representative-chain) | Deterministic representative chain covering MCP record, final-argument authorization, governed child delegation, OTel/Harmovela events, and an edited denial with zero effects. |
 | [retry](language/delphi/examples/retry) | This example retries a transient failure with a bounded attempt count and keeps the exhausted failure state. |
 | [service](language/delphi/examples/service) | This example defines a transport-neutral request handler with health, principal, and run cases. |
 | [session-checkpoint](language/delphi/examples/session-checkpoint) | This example saves and restores a conversation history across two agent turns. It uses the checkpoint allowlist as a teaching in-memory store keyed by session id; production sto... |

@@ -9,9 +9,9 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 | Package | `PRAXO-CORE` |
 | Registry | [OPM / GitHub release](https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.7.0) |
 | Install | `OPM package or release archive` |
-| Source version | `0.7.0` |
+| Source version | `0.8.0` |
 | Published version | `0.2.1` |
-| Source tag | `delphi/v0.7.0` |
+| Source tag | `delphi/v0.8.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/delphi/ |
@@ -43,8 +43,8 @@ See the [full Delphi / Free Pascal README](language/delphi/README.md) for comple
 | Capability | Status | Detail |
 | --- | --- | --- |
 | OpenAI-compatible model | native | `TPraxoOpenAIAdapter` with FPC HTTP transport; SSE streaming reassembly |
-| Anthropic model | native | `TPraxoAnthropicAdapter`; FPC HTTP transport; Anthropic SSE streaming |
-| Gemini model | native | `TPraxoGeminiAdapter`; FPC HTTP transport; Gemini SSE streaming |
+| Anthropic model | native | `TPraxoAnthropicAdapter`; FPC HTTP transport; `GenerateStream` reassembles Anthropic SSE |
+| Gemini model | native | `TPraxoGeminiAdapter`; FPC HTTP transport; `GenerateStream` reassembles Gemini SSE |
 | MCP client | native | `TPraxoMcpClient`; stdio and `TPraxoHttpMcpTransport` for Streamable HTTP 2025-03-26 |
 | Harmovela sink | native | `TPraxoHarmovelaSink` |
 | OpenTelemetry sink | native (transport seam) | `TPraxoOtelSink`; caller supplies `TPraxoOtelTransport` |

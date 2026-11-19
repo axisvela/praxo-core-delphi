@@ -42,9 +42,9 @@ See the [full Delphi / Free Pascal README](language/delphi/README.md) for comple
 
 | Capability | Status | Detail |
 | --- | --- | --- |
-| OpenAI-compatible model | native | `TPraxoOpenAIAdapter` with FPC HTTP transport |
-| Anthropic model | native | `TPraxoAnthropicAdapter`; FPC HTTP transport |
-| Gemini model | native | `TPraxoGeminiAdapter`; FPC HTTP transport |
+| OpenAI-compatible model | native | `TPraxoOpenAIAdapter` with FPC HTTP transport; SSE streaming reassembly |
+| Anthropic model | native | `TPraxoAnthropicAdapter`; FPC HTTP transport; Anthropic SSE streaming |
+| Gemini model | native | `TPraxoGeminiAdapter`; FPC HTTP transport; Gemini SSE streaming |
 | MCP client | native | `TPraxoMcpClient`; stdio and `TPraxoHttpMcpTransport` for Streamable HTTP 2025-03-26 |
 | Harmovela sink | native | `TPraxoHarmovelaSink` |
 | OpenTelemetry sink | native (transport seam) | `TPraxoOtelSink`; caller supplies `TPraxoOtelTransport` |

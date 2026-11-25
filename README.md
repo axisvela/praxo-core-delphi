@@ -12,6 +12,8 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 | Source version | `0.8.0` |
 | Published version | `0.2.1` |
 | Source tag | `delphi/v0.8.0` |
+| Tutorial tag | `delphi/tutorial/v0.1.0` |
+| Examples tag | `delphi/examples/v0.1.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/delphi/ |
@@ -72,6 +74,18 @@ Runnable examples live under [`language/delphi/examples`](language/delphi/exampl
 | [session-checkpoint](language/delphi/examples/session-checkpoint) | This example saves and restores a conversation history across two agent turns. It uses the checkpoint allowlist as a teaching in-memory store keyed by session id; production sto... |
 | [streaming](language/delphi/examples/streaming) | This example accumulates streamed chunks and checks that they reconstruct the final output. |
 | [structured-output](language/delphi/examples/structured-output) | This example validates a final JSON answer against a schema and rejects invalid output. |
+
+## Scenario Tutorials
+
+Scenario-oriented tutorials live under `language/delphi/Tutorial`.
+
+| Path | What it shows |
+| --- | --- |
+| [Tutorial](language/delphi/Tutorial) | ﻿# Delphi / Free Pascal Tutorials |
+| [hvac-settings](language/delphi/Tutorial/hvac-settings) | A bounded first slice of BE-02, not a building-management system. It reads a fixed building environment and drafts a review-only settings plan using the source Delphi/Free Pasca... |
+| [legacy-migration](language/delphi/Tutorial/legacy-migration) | A bounded first slice of [SE-03](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), not an automatic production migration. It inventories fixed legacy modu... |
+| [rpa-reconciliation](language/delphi/Tutorial/rpa-reconciliation) | A bounded first slice of [OP-04](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), not a production RPA platform. It reconciles a fixed purchase order and... |
+| [tax-review](language/delphi/Tutorial/tax-review) | A bounded tax-planning tutorial. It reads a fixed ledger, computes taxable income and tax due, then drafts a review-only filing. No filing is submitted and no tax advice is given. |
 
 ## Verify
 

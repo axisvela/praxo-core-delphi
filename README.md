@@ -12,8 +12,6 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 | Source version | `0.8.0` |
 | Published version | `0.2.1` |
 | Source tag | `delphi/v0.8.0` |
-| Tutorial tag | `delphi/tutorial/v0.1.0` |
-| Examples tag | `delphi/examples/v0.1.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/delphi/ |

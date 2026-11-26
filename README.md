@@ -85,6 +85,8 @@ Scenario-oriented tutorials live under `language/delphi/Tutorial`. Planning cont
 | [rpa-reconciliation](language/delphi/Tutorial/rpa-reconciliation) | A bounded first slice of [OP-04](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), not a production RPA platform. It reconciles a fixed purchase order and... |
 | [tax-review](language/delphi/Tutorial/tax-review) | A bounded tax-planning tutorial. It reads a fixed ledger, computes taxable income and tax due, then drafts a review-only filing. No filing is submitted and no tax advice is given. |
 
+## Reference Applications
+
 No accepted end-to-end reference application is recorded for this language yet. Candidate goals are tracked in the [Reference Application Portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio).
 
 ## Verify

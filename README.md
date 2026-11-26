@@ -7,11 +7,11 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 | Field | Value |
 | --- | --- |
 | Package | `PRAXO-CORE` |
-| Registry | [GitHub release (OPM listing unverified)](https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.7.0) |
-| Install | `Download 0.7.0 assets from https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.7.0` |
+| Registry | [GitHub release (OPM listing unverified)](https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.9.0) |
+| Install | `Download 0.9.0 assets from https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.9.0` |
 | Source version | `0.9.0` |
-| Published version | `0.7.0` |
-| Publication status | published GitHub release assets 0.7.0; OPM listing unverified |
+| Published version | `0.9.0` |
+| Publication status | published GitHub release assets 0.9.0; OPM listing unverified |
 | Canonical source tag | [`delphi/v0.9.0`](https://github.com/axisvela/praxo-core/tree/delphi/v0.9.0) |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
@@ -34,7 +34,7 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 Install the published package:
 
 ```text
-Download 0.7.0 assets from https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.7.0
+Download 0.9.0 assets from https://github.com/axisvela/praxo-core/releases/tag/delphi%2Fv0.9.0
 ```
 
 See the [full Delphi / Free Pascal README](language/delphi/README.md) for complete installation, build, and verification commands.
